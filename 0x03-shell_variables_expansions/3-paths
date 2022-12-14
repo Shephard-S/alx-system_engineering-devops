@@ -1,0 +1,3 @@
+#!/bin/bash
+echo id -u
+echo $(( $(whereis ls|cut -d " " -f 3|tr -c -d / |wc -c )-1 ))
